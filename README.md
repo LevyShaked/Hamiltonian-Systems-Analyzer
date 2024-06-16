@@ -11,7 +11,7 @@
 ## Motivation
 In our lab, we investigate mechanical systems. In most cases, these systems cannot be solved analytically, necessitating numerical calculations. There are various computational tools available for investigating these systems, but an interactive program that can conduct preliminary investigations would be very helpful. This project aims to integrate the tools our lab uses, initially focusing on generating the First Recurrence Map.
 
-For example, here is a map generated in our lab for the three-dimensional [Toda lattice](https://doi.org/10.1143/PTP.50.1547):  
+For example, here is a map generated in our lab for the three-dimensional [Toda lattice](https://doi.org/10.1143/PTP.50.1547) 
 
  
 <div align="center">
@@ -28,7 +28,7 @@ The "closed" symmetrical curves indicate that this system is stable and non-chao
 
 The Hamiltonian is a function of time **t**, position **q**, and momentum **p**: 
 
-$ H = H_{(q,p,t)} $
+$H=H_{(q,p,t)}$
 
 which satisfies the Hamilton-Jacobi equations of motion.
 
