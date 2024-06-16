@@ -69,12 +69,15 @@ The algorithm for this method will be included as part of the program to control
 
 1. For user-specified parameters, the RK method will generate a single trajectory.
 2. The FRM sequence will be calculated:
+
 <div align="center">
-  $$
-  (p_{(t_{n})}, q_{(t_{n})})
-  $$
+
+$(p(t_{n}), q(t_{n}))$
+
 </div>
+
 and will be stored in the FRM matrix of the map.
+
 3. Repeat steps 1-2 until all desired trajectories are generated.
 
 ## Programming
@@ -108,9 +111,9 @@ and will be stored in the FRM matrix of the map.
 The test will be for the 1 dimentional Harmonic Oscillator Hamiltonian:
 
 <div align="center">
-  $$
-  H = \frac{p^2}{2} + \frac{1}{2}q^2
-  $$
+
+$H=\frac{p^2}{2}+\frac{1}{2}q^2$
+
 </div>
 
 
