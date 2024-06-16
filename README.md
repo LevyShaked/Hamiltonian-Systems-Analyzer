@@ -1,8 +1,7 @@
 <div align="center">
-  # **Hamiltonian Systems Analysis Tool**  
+  <h1 style="background-color: yellow; padding: 10px; border-radius: 10px;">Hamiltonian Systems Analysis Tool</h1>
 </div>
-
-***This program analyzes trajectories for a given Hamiltonian with various mathematical tools.***
+***This program analyzes trajectories for a given Hamiltonian with various mathematical tools***
 
 ## Motivation
 In our lab, we investigate mechanical systems. In most cases, these systems cannot be solved analytically, necessitating numerical calculations. There are various computational tools available for investigating these systems, but an interactive program that can conduct preliminary investigations would be very helpful. This project aims to integrate the tools our lab uses, initially focusing on generating the First Recurrence Map.
@@ -14,11 +13,13 @@ The "closed" symmetrical curves indicate that this system is stable and non-chao
 
 ## Theory 
 
-### [Hamiltonian Mechanics](https://books.google.co.il/books?id=fnO3XYYpU54C&pg=PA19&hl=iw&source=gbs_toc_r&cad=1#v=onepage&q&f=false) (19)
+### [Hamiltonian Mechanics](https://books.google.co.il/books?id=fnO3XYYpU54C&pg=PA19&hl=iw&source=gbs_toc_r&cad=1#v=onepage&q&f=false) 
 
 The Hamiltonian is a function of time **t**, position **q**, and momentum **p**: 
 <div align="center">
-  $H = H_{(q,p,t)}$
+  $$
+  H = H_{(q,p,t)}
+  $$
 </div>
 which satisfies the Hamilton-Jacobi equations of motion.
 
@@ -26,7 +27,9 @@ By knowing the Hamiltonian, one has the condition of a physical system for any t
 
 By placing a particle in a known system, it will start to move. Its momentum and position will change over time. The trajectory is defined as all the positions and corresponding momentum values that the particle has during its motion, represented as:
 <div align="center">
-  $p_{(q)}$
+  $$
+  p_{(q)}
+  $$
 </div>
 
 In most cases, even if the Hamiltonian is known, it is not possible to solve it analytically, and therefore numerical calculations are necessary to reveal the physical behavior of the system. 
@@ -34,7 +37,9 @@ In most cases, even if the Hamiltonian is known, it is not possible to solve it 
 ### [First Recurrence Map (FRM)](https://books.google.co.il/books?id=fnO3XYYpU54C&pg=PA87&hl=iw&source=gbs_toc_r&cad=1#v=onepage&q&f=false) 
 Instead of presenting p(q) at all times, it is possible to choose times periodically:
 <div align="center">
-  $t_{n}$ = nT
+  $$
+  t_{n} = nT
+  $$
   where $n \in \mathbb{N}$ and $T \in \mathbb{R}, T>0$ 
 </div>
 
@@ -52,7 +57,9 @@ The algorithm for this method will be included as part of the program to control
 1. For user-specified parameters, the RK method will generate a single trajectory.
 2. The FRM sequence will be calculated:
 <div align="center">
-  $(p_{(t_{n})}, q_{(t_{n})})$
+  $$
+  (p_{(t_{n})}, q_{(t_{n})})
+  $$
 </div>
 and will be stored in the FRM matrix of the map.
 3. Repeat steps 1-2 until all desired trajectories are generated.
@@ -77,18 +84,20 @@ and will be stored in the FRM matrix of the map.
 
 ## Guide
 
-i. Insatll the dependencies:
+1. Insatll the dependencies:
 
 'pip install -r requirements.txt.'
 
-ii. Run the test:
+2. Run the test:
 
 'pytest'
 
 The test will be for the 1 dimentional Harmonic Oscillator Hamiltonian:
 
 <div align="center">
-  $H = \frac{p^2}{2} + \frac{1}{2}q^2$
+  $$
+  H = \frac{p^2}{2} + \frac{1}{2}q^2
+  $$
 </div>
 
 
