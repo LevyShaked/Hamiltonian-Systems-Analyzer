@@ -7,7 +7,8 @@
 ***This program analyzes trajectories for a given Hamiltonian with various mathematical tools***
 
 </div> 
-
+ 
+ 
 ## Motivation
 In our lab, we investigate mechanical systems. In most cases, these systems cannot be solved analytically, necessitating numerical calculations. There are various computational tools available for investigating these systems, but an interactive program that can conduct preliminary investigations would be very helpful. This project aims to integrate the tools our lab uses, initially focusing on generating the First Recurrence Map.
 
@@ -82,6 +83,8 @@ and will be stored in the FRM matrix of the map.
 
 ## Programming
 
+The program interface will solely be through an interactive GUI
+ 
 ### Input 
 
 1. Hamiltonian expression 
@@ -120,5 +123,8 @@ $H=\frac{p^2}{2}+\frac{1}{2}q^2$
 
 Further tools for FRM: animation by different sections 
 
+
+ 
+## 
 
 This project was originally implemented as part of the Python programming course at the Weizmann Institute of Science taught by Gabor Szabo
