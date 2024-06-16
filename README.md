@@ -27,9 +27,11 @@ The "closed" symmetrical curves indicate that this system is stable and non-chao
 ### [Hamiltonian Mechanics](https://books.google.co.il/books?id=fnO3XYYpU54C&pg=PA19&hl=iw&source=gbs_toc_r&cad=1#v=onepage&q&f=false) 
 
 The Hamiltonian is a function of time **t**, position **q**, and momentum **p**: 
+<div align="center">
+  
+$H=H{(q,p,t)}$
 
-$H=H_{(q,p,t)}$
-
+</div>
 which satisfies the Hamilton-Jacobi equations of motion.
 
 By knowing the Hamiltonian, one has the condition of a physical system for any time t. 
