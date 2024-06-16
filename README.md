@@ -105,11 +105,11 @@ The program interface will solely be through an interactive GUI
 
 1. Insatll the dependencies:
 
-'pip install -r requirements.txt.'
+`pip install -r requirements.txt.`
 
 2. Run the test:
 
-'pytest'
+`pytest`
 
 The test will be for the 1 dimentional Harmonic Oscillator Hamiltonian:
 
@@ -127,4 +127,6 @@ Further tools for FRM: animation by different sections
  
 ## 
 
-This project was originally implemented as part of the Python programming course at the Weizmann Institute of Science taught by Gabor Szabo
+> This project was originally implemented as part of the [Python programming course](https://github.com/szabgab/wis-python-course-2024-04)
+> at the [Weizmann Institute of Science](https://www.weizmann.ac.il/) taught by [Gabor Szabo](https://szabgab.com/)
+
