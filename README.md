@@ -1,14 +1,18 @@
 <div align="center">
   <h1 style="background-color: yellow; padding: 10px; border-radius: 10px;">Hamiltonian Systems Analysis Tool</h1>
-</div>
+</div> 
+ 
 ***This program analyzes trajectories for a given Hamiltonian with various mathematical tools***
 
 ## Motivation
 In our lab, we investigate mechanical systems. In most cases, these systems cannot be solved analytically, necessitating numerical calculations. There are various computational tools available for investigating these systems, but an interactive program that can conduct preliminary investigations would be very helpful. This project aims to integrate the tools our lab uses, initially focusing on generating the First Recurrence Map.
 
 For example, here is a map generated in our lab for the three-dimensional [Toda lattice](https://doi.org/10.1143/PTP.50.1547):  
-![](image-1.png)
 
+ 
+<div align="center">
+![image-1](https://github.com/LevyShaked/Hamiltonian-Systems-Analyzer/assets/167014554/9e790042-24c6-47b3-b568-262ec9181aee)
+</div>
 The "closed" symmetrical curves indicate that this system is stable and non-chaotic. Without exhibiting these geometrical curves, it is not possible to determine in advance whether the system is chaotic, even with current mathematical knowledge!
 
 ## Theory 
@@ -16,11 +20,9 @@ The "closed" symmetrical curves indicate that this system is stable and non-chao
 ### [Hamiltonian Mechanics](https://books.google.co.il/books?id=fnO3XYYpU54C&pg=PA19&hl=iw&source=gbs_toc_r&cad=1#v=onepage&q&f=false) 
 
 The Hamiltonian is a function of time **t**, position **q**, and momentum **p**: 
-<div align="center">
-  $$
-  H = H_{(q,p,t)}
-  $$
-</div>
+\[
+H = H_{(q,p,t)}
+\]
 which satisfies the Hamilton-Jacobi equations of motion.
 
 By knowing the Hamiltonian, one has the condition of a physical system for any time t. 
