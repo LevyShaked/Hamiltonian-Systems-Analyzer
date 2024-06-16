@@ -28,9 +28,7 @@ The "closed" symmetrical curves indicate that this system is stable and non-chao
 
 The Hamiltonian is a function of time **t**, position **q**, and momentum **p**: 
 
-\[
-H = H_{(q,p,t)}
-\]
+$ H = H_{(q,p,t)} $
 
 which satisfies the Hamilton-Jacobi equations of motion.
 
