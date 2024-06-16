@@ -37,10 +37,11 @@ which satisfies the Hamilton-Jacobi equations of motion.
 By knowing the Hamiltonian, one has the condition of a physical system for any time t. 
 
 By placing a particle in a known system, it will start to move. Its momentum and position will change over time. The trajectory is defined as all the positions and corresponding momentum values that the particle has during its motion, represented as:
+
 <div align="center">
-  $$
-  p_{(q)}
-  $$
+
+$p_(q)$
+
 </div>
 
 In most cases, even if the Hamiltonian is known, it is not possible to solve it analytically, and therefore numerical calculations are necessary to reveal the physical behavior of the system. 
@@ -48,10 +49,11 @@ In most cases, even if the Hamiltonian is known, it is not possible to solve it 
 ### [First Recurrence Map (FRM)](https://books.google.co.il/books?id=fnO3XYYpU54C&pg=PA87&hl=iw&source=gbs_toc_r&cad=1#v=onepage&q&f=false) 
 Instead of presenting p(q) at all times, it is possible to choose times periodically:
 <div align="center">
-  $$
-  t_{n} = nT
-  $$
-  where $n \in \mathbb{N}$ and $T \in \mathbb{R}, T>0$ 
+
+$t_{n} = nT$
+
+where $n \in \mathbb{N}$ and $T \in \mathbb{R}$, $T>0$
+
 </div>
 
 This map reveals the geometrical features of dynamical systems. These features represent physical properties of the system, which are hard to know in advance.
