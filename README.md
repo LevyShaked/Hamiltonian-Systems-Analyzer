@@ -33,7 +33,7 @@ The Hamiltonian is a function of time **t**, position **q**, and momentum **p**:
 $H=H{(q,p,t)}$
 
 </div>
-which satisfies the Hamilton-Jacobi equations of motion.
+which satisfies the Hamilton's equations of motion.
 
 By knowing the Hamiltonian, one has the condition of a physical system for any time t. 
 
@@ -48,7 +48,8 @@ $p_(q)$
 In most cases, even if the Hamiltonian is known, it is not possible to solve it analytically, and therefore numerical calculations are necessary to reveal the physical behavior of the system. 
 
 ### [First Recurrence Map (FRM)](https://books.google.co.il/books?id=fnO3XYYpU54C&pg=PA87&hl=iw&source=gbs_toc_r&cad=1#v=onepage&q&f=false) 
-Instead of presenting p(q) at all times, it is possible to choose times periodically:
+Instead of presenting p(q) at all times, it is possible to choose times periodically, 
+and for 1.5 dimentions this will be a Stroboscopic Map with the requirement:
 <div align="center">
 
 $t_{n} = nT$
@@ -87,19 +88,19 @@ The program interface will solely be through an interactive GUI
  
 ### Input 
 
-1. Hamiltonian expression 
-2. Initial conditions:
+1. Time interval (for determination of convergance)
+2. Time legnth of the dynamics
+3. Initial conditions:
    - Boundary
-   - Density
-3. Energy 
-4. Surface choice (t0 or q0 for D>1)
+   - Amount
+4. Mass
+5. Force expression (function of (q,p,t,m))
+6. Surface choice (t0) as a scroller
 
 ### Output 
 
-1. CSV file of the initial data
-2. CSV file of the data (matrix Q, P) 
-3. Map as a picture 
-4. Convergence graph
+1. CSV file of the trajectories and the time interval
+2. Map as a picture 
 
 ## Guide
 
@@ -107,21 +108,20 @@ The program interface will solely be through an interactive GUI
 
 'pip install -r requirements.txt.'
 
-2. Run the test:
+2. Run the program on terminal:
 
-'pytest'
+'python Hamiltonian_Analyzer.py'
 
-The test will be for the 1 dimentional Harmonic Oscillator Hamiltonian:
+The test will be the data that is filled in the entries by default
 
 <div align="center">
 
-$H=\frac{p^2}{2}+\frac{1}{2}q^2$
+$f=-x+\frac{1}{2}*sign(p)\abs{x}$
 
 </div>
 
 
 
-Further tools for FRM: animation by different sections 
 
 
  

@@ -1,3 +1,5 @@
-numpy 
-matplotlib 
-csv 
+tkinter as tk
+numpy as np
+os
+shutil
+matplotlib.pyplot as plt
