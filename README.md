@@ -116,7 +116,7 @@ The test will be the data that is filled in the entries by default
 
 <div align="center">
 
-$f=-x+\frac{1}{2}sign(p)abs(x)$
+$f=-x+\frac{1}{2}*sign(p)*abs(x)$
 
 </div>
 
