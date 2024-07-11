@@ -109,13 +109,6 @@ The program interface will solely be through an interactive GUI
 `pip install -r requirements.txt.`
 
 2. Run the program on terminal:
-
-<<<<<<< HEAD
-'python Hamiltonian_Analyzer.py'
-=======
-`pytest`
->>>>>>> 8c533ef3dbff012ae530e30945c297cc8df16480
-
 The test will be the data that is filled in the entries by default
 
 <div align="center">
