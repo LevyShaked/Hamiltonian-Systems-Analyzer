@@ -106,11 +106,15 @@ The program interface will solely be through an interactive GUI
 
 1. Insatll the dependencies:
 
-'pip install -r requirements.txt.'
+`pip install -r requirements.txt.`
 
 2. Run the program on terminal:
 
+<<<<<<< HEAD
 'python Hamiltonian_Analyzer.py'
+=======
+`pytest`
+>>>>>>> 8c533ef3dbff012ae530e30945c297cc8df16480
 
 The test will be the data that is filled in the entries by default
 
@@ -127,4 +131,6 @@ $f=-x+\frac{1}{2}*sign(p)\abs{x}$
  
 ## 
 
-This project was originally implemented as part of the Python programming course at the Weizmann Institute of Science taught by Gabor Szabo
+> This project was originally implemented as part of the [Python programming course](https://github.com/szabgab/wis-python-course-2024-04)
+> at the [Weizmann Institute of Science](https://www.weizmann.ac.il/) taught by [Gabor Szabo](https://szabgab.com/)
+
