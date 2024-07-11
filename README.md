@@ -110,7 +110,8 @@ The program interface will solely be through an interactive GUI
 
 2. Run the program on terminal:
 
-`python Hamiltonian_Analyzer.py`
+`python Hamiltonian_Analyzer.py` 
+
 The test will be the data that is filled in the entries by default
 
 <div align="center">
